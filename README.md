@@ -1,3 +1,5 @@
+**This project is intended to download music from YouTube as an mp3 file.**
+
 <a href="https://github.com/spotDL/spotify-downloader"><img align="right" src="static/logo-transparent.png" alt="logo" width="253" height="116"/></a>
 # spotDL
 
