@@ -1,6 +1,6 @@
-## Project Road Map
+# Project Road Map
 
-# Tasks
+## Tasks
 Sprint 1:
 - [x] Download Repository and fork it to ksu-is
 - [x] Look at source code + familiarize myself with it 
