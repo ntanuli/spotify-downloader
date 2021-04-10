@@ -1,4 +1,4 @@
-**This project is intended to download music from YouTube as an mp3 file.**
+**This project is intended to download music from YouTube as an mp3 file. The content below helps users to follow the steps to be able to use the code.**
 
 <a href="https://github.com/spotDL/spotify-downloader"><img align="right" src="static/logo-transparent.png" alt="logo" width="253" height="116"/></a>
 # spotDL
@@ -175,8 +175,3 @@ pipx run spotdl ...
   $ spotdl [ARGUMENTS]
   ```
 
-## Thank Yous
-
-1. [@ritiek](https://github.com/ritiek) for creating and maintaining spotDL for 4 years
-2. [@rocketinventor](https://github.com/rocketinventor) for figuring out YouTube Music querying
-3. [@MikhailZex](https://github.com/MikhailZex) for, never mind...
