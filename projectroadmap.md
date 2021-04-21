@@ -6,3 +6,4 @@ Sprint 1:
 - [x] Look at source code + familiarize myself with it 
 - [x] Download any additional software 
 - [ ] Test for errors
+
