@@ -11,7 +11,7 @@ def has_correct_version(skip_version_check: bool = False) -> bool:
     )
 
     proc_out, _ = process.communicate()
-
+    print(proc_out)
     if process.returncode == 127:
         print("FFmpeg was not found, spotDL cannot continue.", file=sys.stderr)
         return False
