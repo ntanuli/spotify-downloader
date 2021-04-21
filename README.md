@@ -1,4 +1,4 @@
-**This project is intended to download music from YouTube as an mp3 file. The content below helps users to follow the steps to be able to use the code.**
+This project allows you to download music from Spotify, whether that be a song, album, or playlist.
 
 <a href="https://github.com/spotDL/spotify-downloader"><img align="right" src="static/logo-transparent.png" alt="logo" width="253" height="116"/></a>
 # spotDL
@@ -26,14 +26,6 @@ What spotDL does:
    - Album Cover
    - Genre
    - and more!
-
-### Announcing spotDL v3
-
-We rebuilt spotDL from scratch to be faster, simpler, and better than spotDL v2. Documentation is still a work in progress.
-
-⚠ We have dropped the active development of spotDL v2 due to support and maintainability. No focused efforts will be made to resolve v2 specific issues.
-
-### Join the [spotDL Discord!](https://discord.gg/xCa23pwJWY)!
 
 
 ## Installation
@@ -146,6 +138,10 @@ Next, you can jump directly to running spotDL with:
 ```
 pipx run spotdl ...
 ```
+
+An example for how to use the pipx run spotdl command would be like this:
+
+pipx run dl 'https://open.spotify.com/track/6y4GYuZszeXNOXuBFsJlos?si=CSBVqMpPSciX8wt7eLXdJw'
 
 ## For Developers and Contributors
 
