@@ -18,7 +18,7 @@ from pytube import YouTube
 from spotdl.download.progressHandlers import DisplayManager, DownloadTracker
 from spotdl.search.songObj import SongObj
 from spotdl.download import ffmpeg
-
+from spotdl import ffmpeg
 
 # ==========================
 # === Base functionality ===
