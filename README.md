@@ -1,4 +1,4 @@
-This project allows you to download music from Spotify, whether that be a song, album, or playlist.
+This project allows you to download music from YouTube and Spotify, whether that be a song, album, or playlist. I am using this for my project. The information below helps users to install the needed software so that they can begin downloading their favorite songs.
 
 <a href="https://github.com/spotDL/spotify-downloader"><img align="right" src="static/logo-transparent.png" alt="logo" width="253" height="116"/></a>
 # spotDL
