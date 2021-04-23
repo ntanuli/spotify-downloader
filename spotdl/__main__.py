@@ -15,6 +15,7 @@ from spotdl.search.utils import (
     search_for_song,
 )
 from spotdl.download import ffmpeg
+#Moved ffmpeg into spotdl/download so that it works 
 
 # ! Usage is simple - call:
 #   'python __main__.py <links, search terms, tracking files separated by spaces>
