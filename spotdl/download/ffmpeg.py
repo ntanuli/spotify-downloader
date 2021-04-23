@@ -2,7 +2,8 @@ import asyncio
 import subprocess
 import sys
 import re
-
+import shutil
+#I imported shutil so that I can move ffmpeg to a different location. 
 
 def has_correct_version(skip_version_check: bool = False) -> bool:
     process = subprocess.Popen(
