@@ -21,7 +21,7 @@ def has_correct_version(skip_version_check: bool = False) -> bool:
         result = re.search(r"ffmpeg version \w?(\d+\.)?(\d+)", proc_out.decode("utf-8"))
 
         if result is None:
-            print("Your FFmpeg version couldn't be detected", file=sys.stderr)
+            print("Your FFmpeg version couldn't be detected, try updating spotDL", file=sys.stderr)
             return False
 
         version = result.group(0).replace("ffmpeg version ", "")
