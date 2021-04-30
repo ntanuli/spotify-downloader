@@ -1,4 +1,4 @@
-This project allows you to download music from YouTube and Spotify, whether that be a song, album, or playlist. I am using this for my project. The information below helps users to install the needed software so that they can begin downloading their favorite songs.
+This project allows you to download music from Spotify, whether that be a song, album, or playlist. I am using this for my project. The information below helps users to install the needed software so that they can begin downloading their favorite songs.
 
 <a href="https://github.com/spotDL/spotify-downloader"><img align="right" src="static/logo-transparent.png" alt="logo" width="253" height="116"/></a>
 # spotDL
@@ -18,7 +18,7 @@ This project allows you to download music from YouTube and Spotify, whether that
 
 What spotDL does:
 
-1. Downloads music from YouTube as an MP3 file
+1. Downloads music from Spotify as an MP3 file
 2. Applies basic metadata gathered from Spotify such as:
    - Track Name
    - Track Number
@@ -57,8 +57,6 @@ You need to download FFmpeg to use this tool. Download and installation instruct
   ```
   curl -L https://github.com/spotDL/spotify-downloader/raw/master/termux/setup_spotdl.sh | sh
   ```
-
-___YouTube Music must be available in your country for spotDL to work. This is because we use YouTube Music to filter search results. You can check if YouTube Music is available in your country, by visiting [YouTube Music](https://music.youtube.com).___
 
 ## Usage (Instructions for v3)
 
@@ -119,7 +117,6 @@ $ spotdl [songQuery1] [albumUrl] [songQuery2] ... (order does not matter)
 ex. `spotdl 'The Weeknd - Blinding Lights' https://open.spotify.com/playlist/37i9dQZF1E8UXBoz02kGID?si=oGd5ctlyQ0qblj_bL6WWow ...`
 
 
-
 _spotDL downloads up to 4 songs in parallel, so for a faster experience, download albums and playlist, rather than tracks._
 
 ## `pipx` Isolated Environment Alternative
@@ -142,32 +139,3 @@ pipx run spotdl ...
 An example for how to use the pipx run spotdl command would be like this:
 
 pipx run dl 'https://open.spotify.com/track/6y4GYuZszeXNOXuBFsJlos?si=CSBVqMpPSciX8wt7eLXdJw'
-
-## For Developers and Contributors
-
-1. Clone this repository
-   ```
-   $ git clone https://github.com/spotDL/spotify-downloader.git
-   $ cd spotify-downloader
-   ```
-2. Setup venv (Optional)
-   - Windows
-     ```
-     $ py -3 -m venv env
-     $ .\.venv\Scripts\activate
-     ```
-   - Linux/macOS
-     ```
-     $ python3 -m venv .venv
-     $ source .venv/bin/activate
-     ```
-3. Install requirements
-   ```
-   $ pip install -e .
-   ```
-
-- Use as command (no need to re-install after file changes)
-  ```
-  $ spotdl [ARGUMENTS]
-  ```
-
