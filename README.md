@@ -138,4 +138,4 @@ pipx run spotdl ...
 
 An example for how to use the pipx run spotdl command would be like this:
 
-pipx run dl 'https://open.spotify.com/track/6y4GYuZszeXNOXuBFsJlos?si=CSBVqMpPSciX8wt7eLXdJw'
+pipx run spotdl 'https://open.spotify.com/track/6y4GYuZszeXNOXuBFsJlos?si=CSBVqMpPSciX8wt7eLXdJw'
