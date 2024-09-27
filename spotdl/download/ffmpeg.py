@@ -2,7 +2,8 @@ import asyncio
 import subprocess
 import sys
 import re
-
+import shutil
+#I imported shutil so that I can move ffmpeg to a different location. 
 
 def has_correct_version(skip_version_check: bool = False) -> bool:
     process = subprocess.Popen(
@@ -11,7 +12,7 @@ def has_correct_version(skip_version_check: bool = False) -> bool:
     )
 
     proc_out, _ = process.communicate()
-
+    print(proc_out)
     if process.returncode == 127:
         print("FFmpeg was not found, spotDL cannot continue.", file=sys.stderr)
         return False
@@ -20,7 +21,7 @@ def has_correct_version(skip_version_check: bool = False) -> bool:
         result = re.search(r"ffmpeg version \w?(\d+\.)?(\d+)", proc_out.decode("utf-8"))
 
         if result is None:
-            print("Your FFmpeg version couldn't be detected", file=sys.stderr)
+            print("Your FFmpeg version couldn't be detected, try updating spotDL", file=sys.stderr)
             return False
 
         version = result.group(0).replace("ffmpeg version ", "")

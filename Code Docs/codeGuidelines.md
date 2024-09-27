@@ -62,8 +62,7 @@ codebases. The following naming conventions are only for python.
 
 - Use descriptive names - your names should convey the purpose. eg,
     - `car` or `bus` instead of `fourTire` when you are referencing a 4-wheeled vehicle
-    - `download_song` instead of `get` you might also be *'getting'* song metadata - why the
-        confuse the reader?
+    - `download_song` instead of `get` you might also be *'getting'* song metadata - why confuse the reader?
     - `DisplayManager` instead of `Manager` - *Was it 'DownloadManager' or just 'Manager'?
         Crappy naming...*
 
